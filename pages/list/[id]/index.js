@@ -14,7 +14,7 @@ const ListItem = () => {
         try {
             // result是一个Response对象，需要使用json()方法
             // 转化成json数据
-            const result = await fetch(`${process.env.NODE_ENV === 'development' ? '' : '/learn-next'}/api/list/${id}`);
+            const result = await fetch(`/api/list/${id}`);
             const res = await result.json();
             if (res.code === '0') {
                 setStu(res.data);
