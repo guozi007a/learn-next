@@ -1,0 +1,26 @@
+{
+  "name": "learn-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://guozia007.gitee.io/learn-next",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/guozia007/learn-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.62.1"
+  }
+}

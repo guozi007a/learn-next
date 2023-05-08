@@ -1,0 +1,15 @@
+.stu_list {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    .stu_li {
+        height: 40px;
+        line-height: 40px;
+        margin-top: 5px;
+        border-top: 1px solid #f8f8f8;
+
+        &.stu_li1 {
+            margin-top: 0;
+        }
+    }
+}
