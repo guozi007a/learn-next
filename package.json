@@ -5,9 +5,9 @@
   "main": "index.js",
   "homepage": "https://guozia007.gitee.io/learn-next",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start",
+    "dev": "next dev",
+    "build": "next build && next export",
     "lint": "next lint"
   },
   "repository": {
